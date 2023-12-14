@@ -1,6 +1,6 @@
-### Fiddler HomeWork
+### Fiddler HW
 
-#### Ex_0: Отфильтровать выдачу запросов по нужному ip
+#### Ex_0: Filter the query output according to the desired id
 
 Protocol: http
 
@@ -31,10 +31,10 @@ response:
 
 Task:
 
-Сделать правила:
+Create rules:
  
- - Подменить url в чтобы в запросе поменялся name которые вы вписали в Postman.
- - Подменить url в чтобы в запросе поменялся age которые вы вписали в Postman. 
+ - Replace url so that name filled in in Postman is changed in the request.
+ - Replace url so that age filled in in Postman is changed in the request.
 
 ==================
 
@@ -59,24 +59,17 @@ response:
                      'u_salary_1_5_year': salary * 4}}
 ```
 
-
 Task:
 
-Сделать правила:
+Create rules:
  
- - Подменить тело запроса чтобы поменялся name которые вы вписали в Postman.
- 
- - Подменить тело запроса чтобы поменялся age которые вы вписали в Postman. 
- 
- - Подменить тело запроса чтобы поменялся salary которые вы вписали в Postman. 
-
- - Подменить тело запроса чтобы удалился age которые вы вписали в Postman.  (Получить 500 код)
-
- - В ответе поменять children на neighbors. 
- 
- - В ответе поменять значение зарплаты u_salary_1_5_year на другую цифру. 
- 
- - В ответе удалить параметр salary. 
+ - Replace request body so that name filled in in Postman is changed in the request.
+ - Replace request body so that age filled in in Postman is changed in the request.
+ - Replace request body so that salary filled in in Postman is changed in the request.
+ - Replace request body so that age filled in in Postman is deleted. (Code 500 should be recieved)
+ - Change children to neighbors in the response. 
+ - Change value of param salary u_salary_1_5_year to another amount in the response.
+ - Delete param salary in the response. 
 
 ==================
 
@@ -101,15 +94,15 @@ response:
 ```
 Task:
 
-Сделать правила:
- - Подменить url в чтобы в запросе поменялся name которые вы вписали в Postman.
- - Подменить url в чтобы в запросе поменялся age которые вы вписали в Postman. 
- - Подменить url в чтобы в запросе поменялся salary которые вы вписали в Postman. 
- - Подменить url в чтобы в запросе удалился weight которые вы вписали в Postman.
- - В ответе удалить параметр  daily_food.
- - В ответе поменять значение параметра daily_food на другую цифру. 
- - В ответе переименовать daily_sleep на sleep
- - В ответе поменять значение параметра daily_sleep на другую цифру. 
+Create rules:
+ - Replace url so that name filled in in Postman is changed in the request.
+ - Replace url so that age filled in in Postman is changed in the request.
+ - Replace url so that salary filled in in Postman is changed in the request.
+ - Replace url so that weight filled in in Postman is deleted in the request.
+ - Delete param daily_food in the response.
+ - Change value of param daily_food to anoher amount in the response.
+ - Rename daily_sleep to sleep in the response.
+ - Change value of param daily_sleep to another amount in the response.
 
 ==================
 
@@ -141,19 +134,14 @@ response:
 
 Task:
 
-Сделать правила:
+Create rules:
 
- - Подменить url в чтобы в запросе поменялся name которые вы вписали в Postman.
- 
- - Подменить url в чтобы в запросе поменялся age которые вы вписали в Postman. 
- 
- - Подменить url в чтобы в запросе удалился name которые вы вписали в Postman.
-
- - В ответе удалить параметр  salary.
-
- - В ответе поменять значение параметра cat на другой json. 
- 
- - Получить 405 код
+ - Replace url so that name filled in in Postman is changed in the request.
+ - Replace url so that age filled in in Postman is changed in the request.
+ - Replace url so that name filled in in Postman is deleted in the request.
+ - Delete param salary in the response.
+ - Change value of param cat to another json in the response.
+ - Recieve code 405.
 
 ==================
 #### Ex_5:
@@ -176,12 +164,12 @@ response:
 ```
 
 Task:
- - Подменить url в чтобы в запросе поменялся name которые вы вписали в Postman.
- - Подменить url в чтобы в запросе поменялся age которые вы вписали в Postman. 
- - Подменить url в чтобы в запросе удалился salary которые вы вписали в Postman.
- - В ответе удалить параметр  salary.
- - В ответе поменять значение параметра salary на значение текстового типа. 
- - Получить 405 код
+ - Replace url so that name filled in in Postman is changed in the request.
+ - Replace url so that age filled in in Postman is changed in the request.
+ - Replace url so that salary filled in in Postman is deleted in the request.
+ - Delete param salary in the response.
+ - Replace value of param salary to value of text type in the response.
+ - Recieve code 405.
 
 ==================
 #### Ex_6:
@@ -211,21 +199,14 @@ response:
 
 Task:
 
-Сделать правила:
+Create rules:
  
- - Подменить тело запроса чтобы поменялся age которые вы вписали в Postman. 
- 
- - Подменить тело запроса чтобы поменялся salary которые вы вписали в Postman. 
- 
- - Подменить тело запроса чтобы удалился salary которые вы вписали в Postman.
- 
- - В ответе поменять qa_salary_after_6_months на qa_salary_after_10_months. 
+ - Replace request body so that age filled in in Postman is changed.
+ - Replace request body so that salary filled in in Postman is changed.
+ - Replace request body so that salary filled in in Postman is deleted.
+ - Replace qa_salary_after_6_months to qa_salary_after_10_months in the response.
+ - Replace value of salary qa_salary_after_1.5_year to another amount in the response.
+ - Delete param person in the response.
+ - Replace value of param person from json to xml in the response.
 
- - В ответе поменять значение зарплаты qa_salary_after_1.5_year на другую цифру. 
- 
- - В ответе удалить параметр person. 
-
- - В ответе поменять значение параметр person с json на xml. 
-
-Все настройки правил Fiddler выгрузить в GitHub
-
+#### All rules settings Fiddler should be uploaded to GitHub.
