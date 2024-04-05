@@ -6,4 +6,4 @@ Fiddler is a cross-platform proxy server app for HTTP debugging. It allows users
 
 ## Here are results of using Fiddler:
 
-<a href="https://github.com/DariaMartinovskaya/Fiddler/blob/main/HW_Fiddler_Everywhere_Rules.farx">Here</a> are Fiddler settings in .farx format created in Fiddler to do <a href="https://github.com/DariaMartinovskaya/Fiddler/blob/main/Fiddler_HW.md">this</a> Homework task, i.e. modify URL, request body, response.
+<a href="https://github.com/DariaMartinovskaya/Fiddler/blob/main/HW_Fiddler_Everywhere_Rules.farx">Here</a> are Fiddler settings in .farx format created in Fiddler to do <a href="https://github.com/DariaMartinovskaya/Fiddler/blob/main/Fiddler_HW.md">this</a> Homework task, particularly, modify URL, request body, response.
